@@ -19,12 +19,12 @@ function App() {
 			<GlobalStyle />
 			<Navbar />
 			<Routes>
-				<Route exact path="/" element={<Home/>} />
-				<Route exact path="/login" element={<Login/>} />
-				<Route exact path="/signup" element={<SignUp/>} />
-				<Route exact path="/pricing" element ={<Pricing/>} />
-				<Route exact path="/formOrg" element ={<FormOrg/>} />
-				<Route exact path="/Winner" element ={<Winner/>} />
+				<Route exact path="#/" element={<Home/>} />
+				<Route exact path="#/login" element={<Login/>} />
+				<Route exact path="#/signup" element={<SignUp/>} />
+				<Route exact path="#/pricing" element ={<Pricing/>} />
+				<Route exact path="#/formOrg" element ={<FormOrg/>} />
+				<Route exact path="#/Winner" element ={<Winner/>} />
 
 			</Routes>
 			<Footer />
